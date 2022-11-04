@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="Professional web design">
+	<meta name="keywords" content="web design, professional">
+	<meta name="author" content="John Loewen">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Web Design | Get Quote</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">Yakoun River </span>Web Development</h1>
+			</div>
+
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li class="current"><a href="quote.html">Get Quote</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section id="newsletter">
+		<div class="container">
+			<h1>Subscribe to our Newsletter</h1>
+			<form>
+				<input type="email" placeholder="Enter email...">
+				<button type="submit" class="button_1">Subscribe</button>
+			</form>
+		</div>
+	</section>
+
+	<section id="main">
+		<div class="container">
+			<article id="quote">
+				<h1 class="page-title">Get quote</h1>
+				<form id="get-quote">
+					<div>
+						<label>First name:</label>
+						<input type="text" placeholder="First Name" required="">
+						<label>Last Name:</label>
+						<input type="text" placeholder="Last Name" required="">
+					</div>
+					<div>
+						<label>Email Address:</label>
+						<input type="email" placeholder="Enter email..." size="40">
+					</div>
+					<div>
+						<label>Location:</label>
+						<select>
+							<option selected="">Victoria</option>
+							<option>Vancouver</option>
+							<option>Nanaimo</option>
+							<option>Prince George</option>
+							<option>Kelowna</option>
+						</select>
+					</div>
+					<div>
+						<label>Services Required:</label><br>
+						<input type="checkbox">
+						<label>HTML </label>
+						<input type="checkbox">
+						<label>CSS </label>
+						<input type="checkbox">
+						<label>JavaScript </label>
+						<input type="checkbox">
+						<label>JQuery </label>
+						<input type="checkbox">
+						<label>MySQL </label>
+						<input type="checkbox">
+						<label>PHP </label>
+						<input type="checkbox">
+						<label>Full-Stack </label>
+					</div>
+					<div>
+						<label>Estimated Hours (max of 1000):</label>
+						<input type="number" min="1" max="1000" size="10">
+					</div>
+					<div>
+						<label>Additional Information:</label><br>
+						<textarea rows="5" cols="60" placeholder="Input here..."></textarea>
+					</div>
+					<div>
+						<label>Payment Type:</label><br>
+						<input type="radio" name="payment">
+						<label>Cash (5% discount)</label><br>
+						<input type="radio" name="payment">
+						<label>Credit</label>
+					</div>
+					<div>
+						<button class="button_1">Get Quote</button>
+					</div>
+				</form>
+			</article>	
+		</div>
+	</section>
+
+	<footer>
+		<h3>Copyright &copy; 2019 - YRC </h3>
+	</footer>
+</body>
+</html>
